@@ -47,7 +47,7 @@ boolean tripped = false;        // I've fallen and I can't get up! (alarm state)
  * ~ 3 body detected, host says auth_ok
  * ~ 4 body detected, host says no_auth
  * ~ 5 body detected, waiting to complain (warningWindow)
- * These are triggerPined by the host system.
+ * These are triggered by the host system.
  */
 const byte UNINITIALIZED = -1;
 const byte STARTUP = 0;
